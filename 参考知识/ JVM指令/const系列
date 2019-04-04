@@ -1,3 +1,4 @@
+const系列命令表示把一个数据放到栈顶，根据要放入的数据不同，前缀不同，i前缀表示放入int类型，l前缀表示放入long类型。
 iconst_m1		load the int value −1 onto the stack
 iconst_0	  load the int value 0 onto the stack
 iconst_1   	load the int value 1 onto the stack
