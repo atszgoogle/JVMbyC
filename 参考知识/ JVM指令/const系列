@@ -1,0 +1,21 @@
+iconst_m1		load the int value −1 onto the stack
+iconst_0	  load the int value 0 onto the stack
+iconst_1   	load the int value 1 onto the stack
+iconst_2  	load the int value 2 onto the stack
+iconst_3	 	load the int value 3 onto the stack
+iconst_4	 	load the int value 4 onto the stack
+iconst_5	 	load the int value 5 onto the stack
+
+
+lconst_0	09	0000 1001		→ 0L	push 0L (the number zero with type long) onto the stack
+lconst_1	0a	0000 1010		→ 1L	push 1L (the number one with type long) onto the stack
+
+
+fconst_0	0b	0000 1011		→ 0.0f	push 0.0f on the stack
+fconst_1	0c	0000 1100		→ 1.0f	push 1.0f on the stack
+fconst_2	0d	0000 1101		→ 2.0f	push 2.0f on the stack
+
+dconst_0	0e	0000 1110		→ 0.0	push the constant 0.0 (a double) onto the stack
+dconst_1	0f	0000 1111		→ 1.0	push the constant 1.0 (a double) onto the stack
+
+aconst_null	01	0000 0001		→ null	push a null reference onto the stack
