@@ -1,4 +1,0 @@
-istore_0	3b	0011 1011		value →	store int value into variable 0
-istore_1	3c	0011 1100		value →	store int value into variable 1
-istore_2	3d	0011 1101		value →	store int value into variable 2
-istore_3	3e	0011 1110		value →	store int value into variable 3

@@ -1,0 +1,31 @@
+store系列的指令分5种，表示从数据从栈顶存入局部变量表，其中i代表int,a代表引用，d代表double,f代表float，l代表long。
+
+istore_0	3b	0011 1011		value →	store int value into variable 0
+istore_1	3c	0011 1100		value →	store int value into variable 1
+istore_2	3d	0011 1101		value →	store int value into variable 2
+istore_3	3e	0011 1110		value →	store int value into variable 3
+
+
+astore_0	4b	0100 1011		objectref →	store a reference into local variable 0
+astore_1	4c	0100 1100		objectref →	store a reference into local variable 1
+astore_2	4d	0100 1101		objectref →	store a reference into local variable 2
+astore_3	4e	0100 1110		objectref →	store a reference into local variable 3
+
+
+dstore_0	47	0100 0111		value →	store a double into local variable 0
+dstore_1	48	0100 1000		value →	store a double into local variable 1
+dstore_2	49	0100 1001		value →	store a double into local variable 2
+dstore_3	4a	0100 1010		value →	store a double into local variable 3
+
+
+fstore_0	43	0100 0011		value →	store a float value into local variable 0
+fstore_1	44	0100 0100		value →	store a float value into local variable 1
+fstore_2	45	0100 0101		value →	store a float value into local variable 2
+fstore_3	46	0100 0110		value →	store a float value into local variable 3
+
+
+
+lstore_0	3f	0011 1111		value →	store a long value in a local variable 0
+lstore_1	40	0100 0000		value →	store a long value in a local variable 1
+lstore_2	41	0100 0001		value →	store a long value in a local variable 2
+lstore_3	42	0100 0010		value →	store a long value in a local variable 3
